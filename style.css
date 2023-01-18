@@ -8,3 +8,11 @@ body {
 .elemento-lista {
   font-size: 1.3em;
 }
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #14213d;
+}
