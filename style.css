@@ -1,5 +1,5 @@
 body {
-  background-color: #f1faee;
+  background-color: #e5e5e5;
 }
 #nome,
 #descricao {
@@ -47,4 +47,20 @@ header {
 #menu a:hover {
   background-color: #ffffff;
   color: #fca311;
+}
+
+#nome {
+  text-align: center;
+  font-size: 2em;
+}
+
+#foto-desc {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 14px auto;
+  max-width: 1300px;
+}
+
+#foto-desc p {
+  font-size: 1.1em;
 }
