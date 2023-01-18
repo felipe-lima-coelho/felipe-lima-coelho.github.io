@@ -41,7 +41,7 @@ header {
   font-weight: bold;
   background-color: #fca311;
   border-radius: 2px;
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.2s;
 }
 
 #menu a:hover {
