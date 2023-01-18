@@ -4,54 +4,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style>
-      body {
-        background-color: #f1faee;
-      }
-      #nome,
-      #descricao {
-        font-family: "Courier New", Courier, monospace;
-      }
-      .elemento-lista {
-        font-size: 1.3em;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Portifólio | Felipe Lima Coelho</title>
   </head>
   <body>
-    <h1>Portifólio</h1>
+    <header>
+      <h1 id="logo">Portifólio</h1>
+      <ul id="menu">
+        <li><a href="#descricao">DESCRIÇÃO</a></li>
+        <li><a href="#habilidades">HABILIDADES</a></li>
+        <li><a href="#fotoLink">LINK FOTO</a></li>
+        <li><a href="#indicacao">INDICAÇÃO TECH</a></li>
+      </ul>
+    </header>
 
-    <h3>Índice Portifólio:</h3>
-    <p>
-      <a href="#nome">Nome</a> | <a href="#fotoAtual">Foto</a> |
-      <a href="#descricao">Descrição</a> |
-      <a href="#habilidades">Habilidades</a> |
-      <a href="#fotoLink">Link Foto</a> |
-      <a href="#indicacao">Indicação Tech</a>
-    </p>
+    <section id="main">
+      <h1 id="nome">Felipe Lima Coelho</h1>
 
-    <h2 id="nome">Nome: <span>Felipe Lima Coelho</span></h2>
-
-    <img
-      src="img/perfil.jpg"
-      alt="Foto Felipe Lima Coelho"
-      width="130"
-      id="fotoAtual"
-    />
-
-    <p id="descricao">
-      Hello, <em>Amazing World!</em>
-      <br />
-      Atualmente, sou estudante de desenvolvimento web na
-      <strong><em>Trybe</em></strong
-      >. Estou cursando Tecnologia da Informação na
-      <strong><em>UFMS</em></strong> e Sistemas de Informação na faculdade
-      <strong><em>XP Educação</em></strong
-      >. Por fim, como hobby, estou aprendendo japonês.
-      <br />
-      Sou brasileiro, já morei no Rio de Janeiro - RJ, Ouro Preto - MG, Porto
-      Alegre - RS e atualmente eu moro na minha cidade natal em Goiânia - GO.
-    </p>
+      <div id="foto-desc">
+        <p id="descricao">
+          Hello, <em>Amazing World!</em>
+          <br />
+          Atualmente, sou estudante de desenvolvimento web na
+          <strong><em>Trybe</em></strong
+          >. Estou cursando Tecnologia da Informação na
+          <strong><em>UFMS</em></strong> e Sistemas de Informação na faculdade
+          <strong><em>XP Educação</em></strong
+          >. Por fim, como hobby, estou aprendendo japonês.
+          <br />
+          Sou brasileiro, já morei no Rio de Janeiro - RJ, Ouro Preto - MG,
+          Porto Alegre - RS e atualmente eu moro na minha cidade natal em
+          Goiânia - GO.
+        </p>
+        <img
+          src="img/perfil.jpg"
+          alt="Foto Felipe Lima Coelho"
+          width="130"
+          id="fotoAtual"
+        />
+      </div>
+    </section>
 
     <h2 id="habilidades">Habilidades</h2>
     <ul>
