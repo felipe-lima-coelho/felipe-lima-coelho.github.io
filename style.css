@@ -57,10 +57,16 @@ header {
 #foto-desc {
   display: flex;
   flex-wrap: nowrap;
-  margin: 14px auto;
-  max-width: 1300px;
+  justify-content: center;
 }
 
 #foto-desc p {
   font-size: 1.1em;
+  width: 70%;
+}
+
+#foto-desc img {
+  padding: 14px;
+  margin-left: 14px;
+  background-color: #ddf6f8;
 }
