@@ -1,0 +1,10 @@
+body {
+  background-color: #f1faee;
+}
+#nome,
+#descricao {
+  font-family: "Courier New", Courier, monospace;
+}
+.elemento-lista {
+  font-size: 1.3em;
+}
