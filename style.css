@@ -13,6 +13,38 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
   padding: 10px;
   background-color: #14213d;
+}
+
+#logo {
+  margin-left: 20px;
+  color: #fca311;
+}
+
+#menu {
+  list-style: none;
+  display: flex;
+  margin-right: 20px;
+}
+
+#menu li + li {
+  margin-left: 14px;
+}
+
+#menu a {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  color: #14213d;
+  font-weight: bold;
+  background-color: #fca311;
+  border-radius: 2px;
+  transition: ease-in-out 0.3s;
+}
+
+#menu a:hover {
+  background-color: #ffffff;
+  color: #fca311;
 }
