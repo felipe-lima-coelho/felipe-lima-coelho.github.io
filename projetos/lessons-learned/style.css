@@ -147,3 +147,39 @@ main {
   bottom: 36px;
   right: 36px;
 }
+
+/* Table */
+
+#table-progress {
+  background-color: #3c6e71;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#table-progress img {
+  width: 32px;
+}
+
+#table-progress table {
+  background-color: #fdfff6;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding: 0 86px;
+  border-spacing: 26px;
+}
+
+#table-progress th {
+  background-color: #284b63;
+  color: #fdfff6;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 3px;
+}
+
+#table-progress td {
+  max-width: 110px;
+}
