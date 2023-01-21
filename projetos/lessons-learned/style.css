@@ -250,3 +250,20 @@ main {
   text-align: right;
   width: 245px;
 }
+
+/* Footer */
+
+#rodape {
+  background-color: #353535;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#rodape p {
+  color: #fdfff6;
+  font-family: "Alegreya", serif;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
