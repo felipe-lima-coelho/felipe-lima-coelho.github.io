@@ -1,0 +1,72 @@
+body {
+  background-color: #e5e5e5;
+}
+#nome,
+#descricao {
+  font-family: "Courier New", Courier, monospace;
+}
+.elemento-lista {
+  font-size: 1.3em;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #14213d;
+}
+
+#logo {
+  margin-left: 20px;
+  color: #fca311;
+}
+
+#menu {
+  list-style: none;
+  display: flex;
+  margin-right: 20px;
+}
+
+#menu li + li {
+  margin-left: 14px;
+}
+
+#menu a {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  color: #14213d;
+  font-weight: bold;
+  background-color: #fca311;
+  border-radius: 2px;
+  transition: ease-in-out 0.2s;
+}
+
+#menu a:hover {
+  background-color: #ffffff;
+  color: #fca311;
+}
+
+#nome {
+  text-align: center;
+  font-size: 2em;
+}
+
+#foto-desc {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+#foto-desc p {
+  font-size: 1.1em;
+  width: 70%;
+}
+
+#foto-desc img {
+  padding: 14px;
+  margin-left: 14px;
+  background-color: #ddf6f8;
+}
